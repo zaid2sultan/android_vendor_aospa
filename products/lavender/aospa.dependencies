@@ -1,0 +1,26 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "wHo-EM-i/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "sapphire-4.19"
+    },
+    {
+        "remote":       "github",
+        "repository":   "wHo-EM-i/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "sapphire-4.19"
+    },
+    {
+        "remote":       "github",
+        "repository":   "wHo-EM-i/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "sapphire-4.19"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-sdm660/android_hardware_qcom_gps",
+        "target_path": "hardware/qcom/gps",
+        "revision": "sapphire-smxx50"
+    }
+]
