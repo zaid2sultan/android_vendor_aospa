@@ -49,7 +49,8 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/spes/aospa_spes.mk \
     $(LOCAL_DIR)/sunny/aospa_sunny.mk \
     $(LOCAL_DIR)/surya/aospa_surya.mk \
-    $(LOCAL_DIR)/vayu/aospa_vayu.mk
+    $(LOCAL_DIR)/vayu/aospa_vayu.mk \
+    $(LOCAL_DIR)/lavender/aospa_lavender.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
@@ -68,6 +69,8 @@ COMMON_LUNCH_CHOICES += \
     aospa_lmi-userdebug \
     aospa_lunaa-userdebug \
     aospa_lynx-userdebug \
+    aospa_lavender-userdebug \
+    aospa_lavender-user \
     aospa_mi439-userdebug \
     aospa_miatoll-userdebug \
     aospa_mini5g-userdebug \
