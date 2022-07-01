@@ -248,7 +248,7 @@ else
 
     checkExit
 
-    cp -f $OUT/atomx_$DEVICE-ota-$FILE_NAME_TAG.zip $OUT/$ATOMX_VERSION.zip
+    mv -f $OUT/atomx_$DEVICE-ota-*.zip $OUT/$ATOMX_VERSION.zip
     echo "Package Complete: $OUT/$ATOMX_VERSION.zip"
 fi
 echo -e ""
