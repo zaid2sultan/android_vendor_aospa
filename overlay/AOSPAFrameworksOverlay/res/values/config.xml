@@ -94,10 +94,10 @@
     </string-array>
 
     <!-- True if home app should be pinned via Pinner Service -->
-    <bool name="config_pinnerHomeApp">true</bool>
+    <bool name="config_pinnerHomeApp">false</bool>
 
     <!-- Should the pinner service pin the Camera application? -->
-    <bool name="config_pinnerCameraApp">true</bool>
+    <bool name="config_pinnerCameraApp">false</bool>
 
     <!-- Disable stock OTA components if installed -->
     <string-array name="config_globallyDisabledComponents" translatable="false">
